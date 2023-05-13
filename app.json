@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "country_challenges_app",
+    "name": "Country Quizz",
     "slug": "country_challenges_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jotazo.country_challenges_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f734dded-23c8-4fa5-8467-561e78895b80"
+      }
     }
   }
 }
